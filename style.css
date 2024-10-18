@@ -6,11 +6,12 @@ body{
   font-style: normal;
   padding: 0px;
   margin: 0px;
-  background-color: #dad3d3;
+
 }
 .logo{
-    padding-left: 20px;
-    padding-top: 7px;
+    padding-left: 25px;
+    padding-top: 10px;
+    margin: 0px;
 }
 .content{
 /* background-image: url(./img/try.jpg); */
@@ -18,22 +19,28 @@ background-image: url(./img/bgprofile-removebg-preview.png);
 background-repeat: no-repeat;
  background-size: cover;
      min-height: 700px; 
-    object-fit: cover;
- 
-  
+    object-fit: cover; 
+    background-color:rgb(11, 11, 49);
   
 }
 .menu,nav,ul,li,a{
     text-decoration: none;
-    display: flex;   
+    display: flex;
+    padding-left: 4rem;
+    margin: 0px;   
 }
 nav,ul,li,a{
    text-indent: 10px;
-   padding-left: 60px;
-    color:rgb(71, 71, 71); 
- 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 19px;
+  font-size: 23px;
+  text-indent: 0.5rem;
+}
+a:hover, a:active {
+    background-color: rgb(38, 143, 38);
+    color: white;
+  }
+.top{
+    display: flex;
 }
 .wholeProject{
    /* background-color: #f1efef; */
@@ -91,25 +98,45 @@ nav,ul,li,a{
 }
 
 .social{
-    padding-left: 270px;
-    padding-top: 10px;
+    padding-left: 240px;
+padding-top: 15px;
 }
 
 .intro,h2{
-    padding-top: 40px;
-    padding-left: 2.5rem;
-    color: rgb(156, 84, 33);
+    padding-top: 47px;
+  padding-left: 1rem;
+    color: rgb(223, 205, 193);
+    font-size: 40px;
+    
 }
-.paragraph,pr,p{
-     padding-left: 2.5rem;
-     color: black;
-    font-size: 20px;
- font-weight: 350;
+.frontend,p{
+    padding-left: 0.5rem;
+    padding-left: 1.3rem;
+}
+.pr,p{
+    padding-left: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+text-align:start;
+padding-left: 0.8rem;
+font-size: 5px;
 
 } 
- .paragraph{
-display: flex;
-} 
+.contepart{
+    display: flex;
+}
+.letstalk{
+    padding-left: 33rem; 
+    padding-top: 60px;
+   
+}
+.letstalk.button,a{
+    padding:  10px 20px 10px 10px ;
+    color: rgb(144, 144, 250);
+   border-radius: 5px;
+    background-color:rgb(11, 11, 49);
+   
+
+}
 .create{
 background-color: rgb(35, 121, 35);
 color: rgb(247, 243, 243);
@@ -143,34 +170,45 @@ font-size: 20px;
     font-size: 20px;
  font-weight: 350;
 }
-.aboutme{
-    text-align: center;
-    font-style: oblique;
-}
-.placeholder{
 
+.aboutme1{
+    display: flex;
+        background-color:rgb(11, 11, 49);
 }
 .abt{
-    padding-left: 120px;
-    padding-top: 0px;
-
+    padding-left: 50px;
+   padding-top: 15px;
+}
+.abtmenu,nav,ul,li,a{
+   gap: 15px;
+   
+   
 }
 .intod,p{
     font-size: 30px;
    color: rgb(37, 13, 13);
+   padding-left: 20px;
 
    
 }
 .intod{
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 .prof,h3{
-    background-color: rgb(252, 216, 172);
-    padding: 0px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    font-size: 80px;
+  margin: 0px;
+    padding-top: 15px;
+    font-size: 60px;
     font-style:italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
+.placeholder{
+    display: flex;
+}
+.myphoto1{
+    padding-top: 100px;
+    padding-right: 35px;
+}
+
 
