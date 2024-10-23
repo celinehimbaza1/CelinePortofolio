@@ -1,214 +1,225 @@
-
-body{
-
-  font-family: "Inter", sans-serif;
+body {
+  font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   padding: 0px;
   margin: 0px;
+}
+.logo {
+  padding-left: 21px;
+  padding-top: 10px;
+  margin: 0px;
+}
+.content {
+  /* background-image: url(./img/try.jpg); */
+  background-image: url(./img/bgprofile-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  object-fit: cover;
+  background-color: rgb(240, 237, 237);
+}
+.navbar ul li
+{
+  display: flex;
+  margin: 0px; 
+  text-decoration: none;
+   padding-left: 18.5rem;
+  font-size: 18px;
+  text-indent: 2.5rem;
+   color: #17262e;  
 
 }
-.logo{
-    padding-left: 25px;
-    padding-top: 10px;
-    margin: 0px;
+
+.navbar ul li a {
+
+  color: #17262e;   
+ 
 }
-.content{
-/* background-image: url(./img/try.jpg); */
-background-image: url(./img/bgprofile-removebg-preview.png);
-background-repeat: no-repeat;
- background-size: cover;
-     min-height: 700px; 
-    object-fit: cover; 
-    background-color:rgb(11, 11, 49);
+
+.navbar ul li a{
+  text-decoration: none;
+
+}
+
+ a:hover,
+a:active {
+ font-size: 19px;
   
 }
-.menu,nav,ul,li,a{
-    text-decoration: none;
-    display: flex;
-    padding-left: 4rem;
-    margin: 0px;   
-}
-nav,ul,li,a{
-   text-indent: 10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 23px;
-  text-indent: 0.5rem;
-}
-a:hover, a:active {
-    background-color: rgb(38, 143, 38);
-    color: white;
-  }
-.top{
-    display: flex;
-}
-.wholeProject{
-   /* background-color: #f1efef; */
-    padding: 0px;
-    margin: 0px;
-}
-.project-container{
-    height: 300px;
-    width: 95%;
-    display: flex;
-    margin-left: 2.5%;
-    
-}
-.project{
-    display: flex;
-    background-color:white
-    
 
-}
-.projectTitle{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 23px;
-    font-weight: bold;
-    font-style: oblique;
-}
-.cont2{
-    padding-left: 30px;
-}
-.project-discription,p{
-   text-align: center;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
- .start{
-    border-radius: 50px;
-    padding: 5px 15px 5px 15px ;
-    background-color: #f0c6c6;
-    font-style: oblique;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 18px;
-  font-size: 21px;
-}
-.showmore,start{
-    padding-bottom: 30px;  
-   padding-left: 25px;
-   padding-top: 10px; 
-} 
-.start2{
-    padding-left: 25px;
-    padding-bottom: 20px;  
-    background-color: rgb(253, 232, 114);
-    border-radius: 30px;
-    padding: 5px 15px 5px 15px ;
-    font-size: 21;
+.top {
+  display: flex;
 }
 
-.social{
-    padding-left: 240px;
-padding-top: 15px;
+.cont2 {
+  padding-left: 30px;
 }
 
-.intro,h2{
-    padding-top: 47px;
+.social {
+  padding-left: 19rem;
+  padding-top: 15px;
+}
+
+.intro, h2 {
+  font-family: "Nunito", sans-serif;
+  padding-top: 50px;
+  padding-left: 0.7rem;
+  color: #17262e;
+  font-size: 35px;
+}
+.frontend p {
+  padding-top: 0px;
+  padding-left: 1.5rem;
+}
+.pr,
+p {
   padding-left: 1rem;
-    color: rgb(223, 205, 193);
-    font-size: 40px;
-    
+  text-align: start;
+  padding-left: 0.8rem;
+  font-size: 5px;
 }
-.frontend,p{
-    padding-left: 0.5rem;
-    padding-left: 1.3rem;
+.contepart {
+  display: flex;
 }
-.pr,p{
-    padding-left: 1rem;
- font-family: Arial, Helvetica, sans-serif;
-text-align:start;
-padding-left: 0.8rem;
-font-size: 5px;
-
-} 
-.contepart{
-    display: flex;
+.sayhello{
+  padding-left: 38.1rem;
 }
-.letstalk{
-    padding-left: 33rem; 
-    padding-top: 60px;
-   
+.get{
+  padding-left: 35rem;
+  padding-top: 140px;
+  font-size: 20px;
+  color: black;
 }
-.letstalk.button,a{
-    padding:  10px 20px 10px 10px ;
-    color: rgb(144, 144, 250);
-   border-radius: 5px;
-    background-color:rgb(11, 11, 49);
-   
-
+.sayhello button
+{
+ border-radius: 5px;
 }
-.create{
-background-color: rgb(35, 121, 35);
-color: rgb(247, 243, 243);
-font-size: 22px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-border-radius: 60px;
-padding: 5px 10px 5px 10px;
-
-
-}
- .creat2{
-background-color: rgb(35, 121, 35);
-color: rgb(247, 243, 243);
-font-size: 22px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-border-radius: 60px;
-padding: 5px 10px 5px 10px;
-} 
-.creat{
-padding-left: 26rem;
-padding-top:10rem; 
-font-style: oblique;
+.sayhello button 
+{
 font-size: 20px;
+padding:8px 20px 8px 20px;
+/* color: #17262e; */
+background-color: black;
 
 }
-.change{
-    padding-left: 95px;
-}
-.loan{
-    color: black;
-    font-size: 20px;
- font-weight: 350;
-}
+.aboutme img{
+  border-radius: 10px;
 
-.aboutme1{
-    display: flex;
-        background-color:rgb(11, 11, 49);
 }
-.abt{
-    padding-left: 50px;
-   padding-top: 15px;
+button a{
+  color: white;
+  text-decoration: none;
 }
-.abtmenu,nav,ul,li,a{
-   gap: 15px;
-   
-   
+.aboutme1 {
+  display: flex;
+  background-color:  rgb(240, 237, 237);
 }
-.intod,p{
-    font-size: 30px;
-   color: rgb(37, 13, 13);
-   padding-left: 20px;
-
-   
+.abt {
+  padding-left: 23rem;
+  /* padding-top: 15px; */
 }
-.intod{
-    padding-bottom: 5px;
+.abtmenu,
+nav,
+ul,
+li
+ {
+  gap: 10px;
 }
-.prof,h3{
+.intod,
+p {
+  font-size: 30px;
+  color: black;
+  padding-left: 12px;
+}
+.intod {
+  padding-bottom: 5px;
+}
+.prof h3 {
+  font-family: "Nunito", sans-serif; 
   margin: 0px;
-    padding-top: 15px;
-    font-size: 60px;
-    font-style:italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-bottom: 20px;
-    padding-left: 20px;
+  padding-top: 15px;
+  font-size: 60px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
-.placeholder{
-    display: flex;
+.placeholder {
+  display: flex;
 }
-.myphoto1{
-    padding-top: 100px;
-    padding-right: 35px;
+.myphoto1 {
+  padding-top: 100px;
+  padding-right: 35px;
 }
-
-
+.profilecontent {
+  background-color:  rgb(240, 237, 237);
+  font-family: "Nunito", sans-serif;
+}
+.envy {
+  padding: 15px;
+}
+.myproject {
+  background-color: rgb(199, 199, 252);
+  min-height: 700px;
+}
+.tit {
+  padding-left: 10px;
+  padding-top: 35px;
+  color: rgb(10, 10, 78);
+  font-size: 30px;
+}
+.bakery {
+  display: flex;
+}
+.cakewebsite {
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.sweetitle {
+  padding-left: 20px;
+}
+.sweet {
+  padding-top: 23px;
+}
+.show1 {
+  padding-top: 15px;
+  padding-left: 130px;
+}
+.showmore {
+  border-radius: 20px;
+  background-color: rgb(85, 182, 85);
+  font-size: 20px;
+  padding: 3px 7px 3px 7px;
+}
+.showmore1 a {
+  border-radius: 3px;
+  background-color: rgb(85, 182, 85);
+  font-size: 15px;
+  padding: 3px 7px 3px 7px;
+  margin-right: 9.5rem;
+  color: rgb(49, 49, 49);
+}
+.firstprojectrow {
+  display: flex;
+}
+.loanapp {
+  font-size: 20px;
+}
+.loanproject {
+  display: flex;
+}
+.aaplynow {
+  padding-top: 27px;
+}
+.flowerlab {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.lab {
+  padding-left: 20px;
+}
+.secondpart {
+  display: flex;
+}
+.part2 {
+  display: flex;
+}
