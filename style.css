@@ -83,7 +83,7 @@ p {
   display: flex;
 }
 .sayhello{
-  padding-left: 38.1rem;
+  padding-left: 37rem;
 }
 .get{
   padding-left: 35rem;
@@ -91,20 +91,18 @@ p {
   font-size: 20px;
   color: black;
 }
-.sayhello button
-{
- border-radius: 5px;
-}
+
 .sayhello button 
 {
 font-size: 20px;
 padding:8px 20px 8px 20px;
 /* color: #17262e; */
 background-color: black;
+border-radius: 5px;
 
 }
 .aboutme img{
-  border-radius: 10px;
+  border-radius: 30px;
 
 }
 button a{
@@ -147,7 +145,7 @@ p {
   display: flex;
 }
 .myphoto1 {
-  padding-top: 100px;
+  padding-top: 170px;
   padding-right: 35px;
 }
 .profilecontent {
@@ -158,8 +156,9 @@ p {
   padding: 15px;
 }
 .myproject {
-  background-color: rgb(199, 199, 252);
+  background-color: rgb(240, 237, 237);
   min-height: 700px;
+  font-family: "Nunito", sans-serif;
 }
 .tit {
   padding-left: 10px;
@@ -174,6 +173,9 @@ p {
   padding-left: 10px;
   padding-top: 15px;
 }
+.cakewebsite img{
+  border-radius: 10px;
+}
 .sweetitle {
   padding-left: 20px;
 }
@@ -181,22 +183,27 @@ p {
   padding-top: 23px;
 }
 .show1 {
-  padding-top: 15px;
+  padding-top: 4px;
   padding-left: 130px;
 }
 .showmore {
   border-radius: 20px;
-  background-color: rgb(85, 182, 85);
+  background-color: #636e6a;
   font-size: 20px;
   padding: 3px 7px 3px 7px;
+  color: white;
+}
+.showmore1{
+  padding-top: 5px;
 }
 .showmore1 a {
-  border-radius: 3px;
-  background-color: rgb(85, 182, 85);
-  font-size: 15px;
-  padding: 3px 7px 3px 7px;
+
+color: white;
   margin-right: 9.5rem;
-  color: rgb(49, 49, 49);
+  text-decoration: none;
+  padding:8px 20px 8px 20px;
+  background-color: black;
+   border-radius: 5px; 
 }
 .firstprojectrow {
   display: flex;
@@ -208,18 +215,86 @@ p {
   display: flex;
 }
 .aaplynow {
-  padding-top: 27px;
+  padding-top: 20px;
+  padding-left: 100px;
 }
+.aaply a {
+  padding:8px 20px 8px 20px;
+  background-color: black;
+   border-radius: 5px; 
+  margin-right: 9.5rem;
+  color: white;
+  text-decoration: none;
+}
+
 .flowerlab {
   padding-left: 10px;
   padding-top: 10px;
+  
+}
+.flowerlab img{
+  border-radius: 10px;
 }
 .lab {
+  padding-bottom: 20px;
   padding-left: 20px;
+  font-size: 30px;
+}
+.labClass{
+  padding-top: 20px;
+}
+.FlowerLab1{
+  padding-top: 10px;
+  padding-left: 130px;
+}
+.Flowers a{
+  padding:8px 20px 8px 20px;
+  background-color: black;
+   border-radius: 5px; 
+  margin-right: 9.5rem;
+  color: white;
+  text-decoration: none;
+}
+.OnlineSell{
+  padding-top: 20px;
+  padding-left: 90px;
+}
+.OnlineSell1 a{
+  padding:8px 20px 8px 20px;
+  background-color: black;
+   border-radius: 5px; 
+  margin-right: 9.5rem;
+  color: white;
+  text-decoration: none;
 }
 .secondpart {
   display: flex;
 }
 .part2 {
+  display: flex;
+}
+.myskills{
+  font-family: "Nunito", sans-serif;
+}
+.EDS{
+  display: flex;
+}
+.envy img{
+  padding-top:80px;
+  padding-left: 30px;
+}
+.EnvyDescription p{
+  font-size: 23px;
+  padding-left: 45px;
+}
+.duhamic img{
+  padding-top:20px;
+  padding-left: 50px; 
+}
+.DuhamicDesc p{
+  font-size: 23px;
+  padding-left: 105px;
+}
+.DuhamicAdri{
   display: flex;
 }
