@@ -19,33 +19,27 @@ body {
   object-fit: cover;
   background-color: rgb(240, 237, 237);
 }
-.navbar ul li
-{
+.navbar ul li {
   display: flex;
-  margin: 0px; 
+  margin: 0px;
   text-decoration: none;
-   padding-left: 18.5rem;
+  padding-left: 18.5rem;
   font-size: 18px;
   text-indent: 2.5rem;
-   color: #17262e;  
-
+  color: #17262e;
 }
 
 .navbar ul li a {
-
-  color: #17262e;   
- 
+  color: #17262e;
 }
 
-.navbar ul li a{
+.navbar ul li a {
   text-decoration: none;
-
 }
 
- a:hover,
+a:hover,
 a:active {
- font-size: 19px;
-  
+  font-size: 19px;
 }
 
 .top {
@@ -61,7 +55,8 @@ a:active {
   padding-top: 15px;
 }
 
-.intro, h2 {
+.intro,
+h2 {
   font-family: "Nunito", sans-serif;
   padding-top: 50px;
   padding-left: 0.7rem;
@@ -82,36 +77,33 @@ p {
 .contepart {
   display: flex;
 }
-.sayhello{
+.sayhello {
   padding-left: 37rem;
 }
-.get{
+.get {
   padding-left: 35rem;
   padding-top: 140px;
   font-size: 20px;
   color: black;
 }
 
-.sayhello button 
-{
-font-size: 20px;
-padding:8px 20px 8px 20px;
-/* color: #17262e; */
-background-color: black;
-border-radius: 5px;
-
+.sayhello button {
+  font-size: 20px;
+  padding: 8px 20px 8px 20px;
+  /* color: #17262e; */
+  background-color: black;
+  border-radius: 5px;
 }
-.aboutme img{
+.aboutme img {
   border-radius: 30px;
-
 }
-button a{
+button a {
   color: white;
   text-decoration: none;
 }
 .aboutme1 {
   display: flex;
-  background-color:  rgb(240, 237, 237);
+  background-color: rgb(240, 237, 237);
 }
 .abt {
   padding-left: 23rem;
@@ -120,8 +112,7 @@ button a{
 .abtmenu,
 nav,
 ul,
-li
- {
+li {
   gap: 10px;
 }
 .intod,
@@ -134,7 +125,7 @@ p {
   padding-bottom: 5px;
 }
 .prof h3 {
-  font-family: "Nunito", sans-serif; 
+  font-family: "Nunito", sans-serif;
   margin: 0px;
   padding-top: 15px;
   font-size: 60px;
@@ -149,7 +140,7 @@ p {
   padding-right: 35px;
 }
 .profilecontent {
-  background-color:  rgb(240, 237, 237);
+  background-color: rgb(240, 237, 237);
   font-family: "Nunito", sans-serif;
 }
 .envy {
@@ -173,7 +164,7 @@ p {
   padding-left: 10px;
   padding-top: 15px;
 }
-.cakewebsite img{
+.cakewebsite img {
   border-radius: 10px;
 }
 .sweetitle {
@@ -193,17 +184,16 @@ p {
   padding: 3px 7px 3px 7px;
   color: white;
 }
-.showmore1{
+.showmore1 {
   padding-top: 5px;
 }
 .showmore1 a {
-
-color: white;
+  color: white;
   margin-right: 9.5rem;
   text-decoration: none;
-  padding:8px 20px 8px 20px;
+  padding: 8px 20px 8px 20px;
   background-color: black;
-   border-radius: 5px; 
+  border-radius: 5px;
 }
 .firstprojectrow {
   display: flex;
@@ -219,9 +209,9 @@ color: white;
   padding-left: 100px;
 }
 .aaply a {
-  padding:8px 20px 8px 20px;
+  padding: 8px 20px 8px 20px;
   background-color: black;
-   border-radius: 5px; 
+  border-radius: 5px;
   margin-right: 9.5rem;
   color: white;
   text-decoration: none;
@@ -230,9 +220,8 @@ color: white;
 .flowerlab {
   padding-left: 10px;
   padding-top: 10px;
-  
 }
-.flowerlab img{
+.flowerlab img {
   border-radius: 10px;
 }
 .lab {
@@ -240,29 +229,29 @@ color: white;
   padding-left: 20px;
   font-size: 30px;
 }
-.labClass{
+.labClass {
   padding-top: 20px;
 }
-.FlowerLab1{
+.FlowerLab1 {
   padding-top: 10px;
   padding-left: 130px;
 }
-.Flowers a{
-  padding:8px 20px 8px 20px;
+.Flowers a {
+  padding: 8px 20px 8px 20px;
   background-color: black;
-   border-radius: 5px; 
+  border-radius: 5px;
   margin-right: 9.5rem;
   color: white;
   text-decoration: none;
 }
-.OnlineSell{
+.OnlineSell {
   padding-top: 20px;
   padding-left: 116px;
 }
-.OnlineSell1 a{
-  padding:8px 20px 8px 20px;
+.OnlineSell1 a {
+  padding: 8px 20px 8px 20px;
   background-color: black;
-   border-radius: 5px; 
+  border-radius: 5px;
   margin-right: 9.5rem;
   color: white;
   text-decoration: none;
@@ -273,66 +262,65 @@ color: white;
 .part2 {
   display: flex;
 }
-.myskills{
+.myskills {
   font-family: "Nunito", sans-serif;
 }
-.EDS{
+.EDS {
   display: flex;
 }
-.envy img{
-  padding-top:80px;
+.envy img {
+  padding-top: 80px;
   padding-left: 30px;
 }
-.EnvyDescription p{
+.EnvyDescription p {
   font-size: 23px;
   padding-left: 45px;
 }
-.duhamic img{
-  padding-top:20px;
-  padding-left: 50px; 
+.duhamic img {
+  padding-top: 20px;
+  padding-left: 50px;
 }
-.DuhamicDesc p{
+.DuhamicDesc p {
   font-size: 23px;
   padding-left: 105px;
 }
-.DuhamicAdri{
+.DuhamicAdri {
   display: flex;
 }
 
-.tek img{
-  padding-top:30px;
-  padding-left: 50px; 
+.tek img {
+  padding-top: 30px;
+  padding-left: 50px;
 }
-.TekDesc p{
+.TekDesc p {
   font-size: 23px;
   padding-left: 55px;
   padding-top: 20px;
 }
-.tekexpert{
+.tekexpert {
   display: flex;
 }
-.Contacts{
+.Contacts {
   font-family: "Nunito", sans-serif;
-  background-color:  rgb(240, 237, 237);
+  background-color: rgb(240, 237, 237);
   min-height: 600px;
 }
-.contactme{
+.contactme {
   text-align: center;
-
 }
-.contact p{
+.contact p {
   padding-top: 20px;
   text-align: center;
 }
-.contactlink .sayhello{
+.contactlink .sayhello {
   padding-top: 35px;
   padding-left: 38rem;
 }
-.getin{
+.getin {
   padding-top: 60px;
-font-size: 40px;
+  font-size: 40px;
 }
-.footer{
+.footer {
   text-align: center;
   font-size: 15px;
   padding-top: 161px;
