@@ -312,8 +312,8 @@ p {
   padding-top: 20px;
   text-align: center;
 }
-.contactlink .sayhello {
-  padding-top: 35px;
+.sayhello {
+  padding-top: 10rem;
   padding-left: 38rem;
 }
 .getin {
@@ -324,4 +324,52 @@ p {
   text-align: center;
   font-size: 15px;
   padding-top: 161px;
+}
+/* .call{
+  display: flex;
+} */
+.ConnectWithUs{
+  padding-top: 60px;
+  padding-left: 30px;
+  font-size: 20px;
+  color: rgb(48, 47, 47);
+}
+.FoneNumber img{
+  /* padding-left: 36rem; */
+  padding-top: 45px;
+}
+/* .MyMail{
+  padding-left: 36rem;
+
+} */
+.chart{
+  padding-left: 36rem;
+}
+.chart a{
+  text-decoration: none;
+}
+.call{
+  padding-left: 30px;  
+  padding-top: 32px;
+}
+.cont{
+  
+background-color: rgb(246, 252, 250);
+border-style:none; 
+ border-radius: 20px;
+ margin-right:540px ;
+ margin-left: 525px; 
+ border-color: rgb(207, 203, 203);
+ border-style: solid;
+}
+.cont img{
+  padding-left: 20px;
+ 
+}
+.mymail{
+  /* padding-left: 35.8rem; */
+}
+.linkdin{
+  /* padding-left: 36.1rem; */
+  padding-bottom: 45px;
 }
