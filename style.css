@@ -80,6 +80,7 @@ p {
 }
 .sayhello {
   padding-left: 37rem;
+
 }
 .get {
   padding-left: 35rem;
@@ -313,10 +314,10 @@ p {
   padding-top: 20px;
   text-align: center;
 }
-.sayhello {
+/* .sayhello {
   padding-top: 10rem;
   padding-left: 38rem;
-}
+} */
 .getin {
   padding-top: 60px;
   font-size: 40px;
@@ -351,7 +352,7 @@ p {
 }
 .call{
   padding-left: 30px;  
-  padding-top: 32px;
+  padding-bottom: 255px;
 }
 .cont{
   
@@ -367,10 +368,17 @@ border-style:none;
   padding-left: 20px;
  
 }
-.mymail{
-  /* padding-left: 35.8rem; */
-}
+
 .linkdin{
   /* padding-left: 36.1rem; */
   padding-bottom: 45px;
+}
+.Footers{
+  min-height: 50px;
+  background-color: #17262e;
+  color: white;
+  margin-left: 0px;
+  text-align: center;
+
+
 }
