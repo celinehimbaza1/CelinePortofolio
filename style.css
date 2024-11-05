@@ -319,7 +319,7 @@ p {
   padding-left: 38rem;
 } */
 .getin {
-  padding-top: 60px;
+  padding-top: 80px;
   font-size: 40px;
 }
 .footer {
@@ -352,8 +352,9 @@ p {
 }
 .call{
   padding-left: 30px;  
-  padding-bottom: 255px;
+  padding-bottom: 210px;
 }
+
 .cont{
   
 background-color: rgb(246, 252, 250);
@@ -363,6 +364,7 @@ border-style:none;
  margin-left: 525px; 
  border-color: rgb(207, 203, 203);
  border-style: solid;
+ 
 }
 .cont img{
   padding-left: 20px;
